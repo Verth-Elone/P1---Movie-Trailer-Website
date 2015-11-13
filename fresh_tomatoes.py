@@ -151,7 +151,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers (Personalized by Peter Majko)</a>
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers (Modified by PM)</a>
           </div>
         </div>
       </div>
@@ -170,8 +170,8 @@ movie_tile_content = '''
     <div class="movie-tile-padded-div">
     <div class="row movie-row1 text-center"><h2>{movie_title}</h2></div>
     <div class="row movie-row2">
-        <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 movie-poster"><img src="{poster_image_url}" width="220" height="342"></div>
-        <div class="col-xs-6 col-sm-8 col-md-6 col-lg-6 movie-info">
+        <div class="col-xs-7 col-sm-4 col-md-6 col-lg-6 movie-poster"><img src="{poster_image_url}" width="220" height="342"></div>
+        <div class="col-xs-5 col-sm-8 col-md-6 col-lg-6 movie-info">
             <p><span class="default-text">Year:</span> {movie_year}</p>
             <p><span class="default-text">Director:</span> {movie_director}</p>
             <p><span class="default-text">Writers:</span> {movie_writers}</p>

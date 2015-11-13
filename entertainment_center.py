@@ -2,17 +2,22 @@ import media
 import fresh_tomatoes
 
 '''
-Module: entertainment_center.py
-Project: Movie Trailer Website
-Version: 1.0
-Author: Peter Majko
-Date of origin: 11/13/2015
-Last update: 11/13/2015
+    Module: entertainment_center.py
+    Project: Movie Trailer Website
+    Version: 1.1
+    Author: Peter Majko
+    Date of origin: 11/13/2015
+    Last update: 11/13/2015
 
-PROPRIETARY:
-    Movie titles are taken from IMDB.com
-    Poster URLs are taken from IMDB.com
-    Video links are taken from YouTube.com
+    Creates instance of Movies named "movies",
+    creates few instances of Movie,
+    adds those instances to "movies",
+    creates and opens fresh_tomatoes site.
+
+    PROPRIETARY:
+        Movie titles are taken from IMDB.com
+        Poster URLs are taken from IMDB.com
+        Video links are taken from YouTube.com
 '''
 
 ################################################################################################################
