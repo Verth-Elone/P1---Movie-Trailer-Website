@@ -173,6 +173,7 @@ movie_tile_content = '''
         <div class="col-xs-7 col-sm-4 col-md-6 col-lg-6 movie-poster"><img src="{poster_image_url}" width="220" height="342"></div>
         <div class="col-xs-5 col-sm-8 col-md-6 col-lg-6 movie-info">
             <p><span class="default-text">Year:</span> {movie_year}</p>
+            <p><span class="default-text">Genre:</span> {movie_genre}</p>
             <p><span class="default-text">Director:</span> {movie_director}</p>
             <p><span class="default-text">Writers:</span> {movie_writers}</p>
             <p><span class="default-text">Stars:</span> {movie_stars}</p>
@@ -201,6 +202,7 @@ def create_movie_tiles_content(movies):
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
             movie_year=movie.year,
+            movie_genre=movie.genre,
             movie_director=movie.director,
             movie_writers=movie.writers,
             movie_stars=movie.stars
